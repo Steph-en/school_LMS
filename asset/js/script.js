@@ -1,9 +1,25 @@
-const left = document.querySelector('.left')
-const right = document.querySelector('.right')
-const container = document.querySelector('.container')
+const left = document.querySelector('.btn');
+const right = document.querySelector('.btn1');
+const container = document.querySelector('.container');
 
-left.addEventListener('mouseenter', () => container.classList.add('hover-left'))
-left.addEventListener('mouseleave', () => container.classList.remove('hover-left'))
+// Hover Effect
+left.addEventListener('mouseenter', () => container.classList.add('hover-left'));
+left.addEventListener('mouseleave', () => container.classList.remove('hover-left'));
 
-right.addEventListener('mouseenter', () => container.classList.add('hover-right'))
-right.addEventListener('mouseleave', () => container.classList.remove('hover-right'))
+right.addEventListener('mouseenter', () => container.classList.add('hover-right'));
+right.addEventListener('mouseleave', () => container.classList.remove('hover-right'));
+
+// Click Effect
+left.onclick = function () {
+    this.innerHTML = "<div class='loader'></div>"
+    setTimeout(() => {
+        this.innerHTML = "<a href='./loin.html' class='btn'>Login</a>"
+    }, 50000);
+}
+
+right.onclick = function () {
+    this.innerHTML = "<div class='loader'></div>"
+    setTimeout(() => {
+        this.innerHTML = "<a href='./loin.html' class='btn'>Login</a>"
+    }, 50000);
+}
