@@ -15,7 +15,13 @@ main {
   overflow-y: hidden;
 }
 
+<<<<<<< HEAD
 .dropdown-toggle { outline: 0; }
+=======
+.dropdown-toggle { 
+  outline: 0; 
+}
+>>>>>>> origin/main
 
 .btn-toggle {
   padding: .25rem .5rem;
@@ -23,6 +29,10 @@ main {
   color: rgba(0, 0, 0, .65);
   background-color: transparent;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/main
 .btn-toggle:hover,
 .btn-toggle:focus {
   color: rgba(0, 0, 0, .85);
