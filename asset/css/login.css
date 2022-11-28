@@ -37,3 +37,19 @@ body {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+
+button a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.loader{
+  position: absolute;
+  pointer-events: none;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: rgb(6, 162, 252);
+  animation: an1 1s ease infinite;
+}

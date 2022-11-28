@@ -13,13 +13,15 @@ right.addEventListener('mouseleave', () => container.classList.remove('hover-rig
 left.onclick = function () {
     this.innerHTML = "<div class='loader'></div>"
     setTimeout(() => {
-        this.innerHTML = "<a href='./loin.html' class='btn'>Login</a>"
-    }, 50000);
+        this.innerHTML = "<a href='./login.html' class='btn'>Login</a>"
+    }, 10000);
 }
 
 right.onclick = function () {
     this.innerHTML = "<div class='loader'></div>"
     setTimeout(() => {
-        this.innerHTML = "<a href='./loin.html' class='btn'>Login</a>"
-    }, 50000);
+        this.innerHTML = "<a href='./login.html' class='btn'>Login</a>"
+    }, 10000);
 }
+
+// User objects 

@@ -15,6 +15,7 @@
 
     <link rel="stylesheet" href="/asset/css/bootstrap.min.css">
 
+    <!-- <link rel="stylesheet" href="/asset/css/style.css"> -->
     <link href="/asset/css/login.css" rel="stylesheet">
 
     <style>
@@ -39,15 +40,15 @@
 <body class="text-center">
     <main class="form-signin">   
         <form>
-            <!-- <img class="mb-4" src="" alt="" width="72" height="57"> -->
+            <img class="mb-4" src="/asset/images/undraw_education_f8ru.svg" alt="" width="80" height="60">
             <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
 
             <div class="form-floating">
-            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-            <label for="floatingInput">username</label>
+            <input type="text" class="form-control" id="floatingInput" placeholder="Username" required>
+            <label for="floatingInput">Username</label>
             </div>
             <div class="form-floating">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
             <label for="floatingPassword">Password</label>
             </div>
 
@@ -56,11 +57,12 @@
                 <input type="checkbox" value="remember-me"> Remember me
             </label>
             </div>
-            <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+            <button class="w-100 btn btn-lg btn-primary" type="button" onclick="getInfo()"><a href="home.html">Sign in</a></button>
             <p class="mt-5 mb-3 text-muted">&copy; 2022-2023</p>
         </form>
     </main>
 
     <script src="/asset/js/bootstrap.bundle.min.js"></script>
+    <script src="/asset/js/login.js"></script>
 </body>
 </html>
