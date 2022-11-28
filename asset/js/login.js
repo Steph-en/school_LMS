@@ -1,4 +1,5 @@
-var objPeople = [
+var objPeople =
+[
     {
         username: "ENG19A00007Y",
         password: "AitGH123"
@@ -17,7 +18,8 @@ var objPeople = [
     }
 ]
 
-function getInfo() {
+function getInfo()
+{
     var username = document.getElementById("floatingInput").value
     var password = document.getElementById("floatingPassword").value
     var button = document.querySelector(".btn")
@@ -37,6 +39,6 @@ function getInfo() {
             }, 1000)
         } 
     }
-    alert("Invalid Userneme or Password")
+    // alert("Invalid Userneme or Password")
     return
 };
