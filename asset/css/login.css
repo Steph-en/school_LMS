@@ -43,6 +43,12 @@ button a{
   text-decoration: none;
 }
 
+button a:hover{
+  color: #fff;
+  outline: none;
+  text-decoration: none;
+}
+
 .loader{
   position: absolute;
   pointer-events: none;
